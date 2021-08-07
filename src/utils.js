@@ -7,6 +7,7 @@ const parce = (file) => {
 
   const fileType = getFixturePath.split('.')[1];
   if (fileType === 'json') return JSON.parse(rearFile);
+  return JSON.parse(rearFile);
 };
 
 export default parce;
