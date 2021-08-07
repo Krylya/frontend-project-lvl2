@@ -23,6 +23,6 @@ jobs:
       - name: Run test
         run: make test
 
-     # Runs test-coverage
-     - name: Run test-coverage
-       run: make test-coverage
+      # Runs test-coverage
+      - name: Run test-coverage
+        run: make test-coverage
