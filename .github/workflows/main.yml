@@ -1,0 +1,24 @@
+name: tests and lint
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: npm install
+        # Install project
+        run: |
+            make install
+
+      # Runs eslint
+      - name: Run eslint
+        run: make lint
+
+      # Runs eslint
+      - name: Run test
+        run: npm test
