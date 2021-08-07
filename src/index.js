@@ -14,8 +14,11 @@ const genDiff = (filepath1, filepath2) => {
   const objectAllKeys = Object.keys({ ...obj1, ...obj2 }).sort();
 
   let result = '';
-  for (const key of objectAllKeys) {
-    result += comparison(obj1, obj2, key);
+  // for (const key of objectAllKeys) {
+  //   result += comparison(obj1, obj2, key);
+  // }
+  for (let i = 0; i < objectAllKeys.length; i += 1) {
+    result += comparison(obj1, obj2, objectAllKeys[i]);
   }
   return `{\n${result}}`;
 };
