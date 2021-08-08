@@ -9,4 +9,4 @@
 
 
 comparison json files
-https://asciinema.org/a/tL8Vqo4vCZ7b6xaS6qOyvZdr4
+[![asciicast](https://asciinema.org/a/Pe6QypnLEmFWssNAjCOJN1iii.svg)](https://asciinema.org/a/Pe6QypnLEmFWssNAjCOJN1iii)
