@@ -6,3 +6,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/afbb9cd867d23a658750/test_coverage)](https://codeclimate.com/github/Krylya/frontend-project-lvl2/test_coverage)
 
 [![.github/workflows/main.yml](https://github.com/Krylya/frontend-project-lvl2/actions/workflows/main.yml/badge.svg)](https://github.com/Krylya/frontend-project-lvl2/actions/workflows/main.yml)
+
+
+comparison json files
+https://asciinema.org/a/tL8Vqo4vCZ7b6xaS6qOyvZdr4
